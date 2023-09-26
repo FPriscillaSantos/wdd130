@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Roboto+Condensed:wght@300&display=swap');
 
 :root{
     --primary-color: #023047;
@@ -6,23 +6,45 @@
     --accent1-color: #FFB703;
     --accent2-color: #8ECAE6;
 
-    --heading-font: '________', Martian Mono;
-    --paragraph-font:'________',Roboto Condensed;
+    --heading-font: 'Martian Mono';
+    --paragraph-font:'Roboto Condensed';
 
     --nav-background-color:var(--secondary-color);
     --nav-link-color:var(--primary-color);
     --nav-hover-link-color:var(--accent1-color);
     --nav-hover-background-color:var(--accent2-color)
 }
-
+/*This is a comment*/
 body{
-    f__:var(--paragraph-font);
-    m__:var(--accent2-color);
-    background-color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    background-color: white;
 }
 
 aside {
-    background-color:var(--secondary-color);
+    background-color: whitesmoke;
+    padding: 2px;
+    margin: 15px;
+    border: 10px solid rgba(216, 180, 19, 0.1);
+}
+
+.primary-color {
+    font-style: italic;
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    font-style:italic;
+    color: var(--secondary-color);
+}
+
+.accent1-color {
+    font-style:italic;
+    color: var(--accent1-color);
+}
+
+.accent2-color {
+    font-style:italic;
+    color: var(--accent2-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 p{
