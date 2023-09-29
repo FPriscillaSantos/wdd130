@@ -29,9 +29,9 @@
 
 h1 {
     position: absolute;
-    margin: 0px 00px 200px 600px;
-    
-
+    position: absolute; 
+    top: 45%;
+    right: 30%;
 }
 h1,h2 {
     font-family: var(--heading-font);
