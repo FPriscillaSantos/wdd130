@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    max-width: 1345px;
+    text-decoration: none;
+}
+	
+:root{
+    --primary-color: #023047;
+    --secondary-color: #FB8500;
+    --accent1-color: #FFB703;
+    --accent2-color: #8ECAE6;
+
+    --heading-font: 'Martian Mono';
+    --paragraph-font:'Roboto Condensed';
+
+    --nav-background-color:var(--secondary-color);
+    --nav-link-color:var(--primary-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--accent2-color)
+}
+
+.hero {
+    display: block;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    margin: 0px 000px 0px 600px;
+
+}
+h1,h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    padding: 10px;
+}
+
+.articlebox {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+    width: 205px;
+    height: auto;
+    position: absolute;   
+    float: top;
+    margin: 0px 1000px 0px 1100px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 2rem;
+    background-color: #eee;
+    color: #000;
+}
+
+
+section {
+    padding: 20px;
+}
