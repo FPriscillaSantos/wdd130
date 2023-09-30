@@ -43,6 +43,12 @@ h1,h2 {
     padding: 10px;
 }
 
+h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    padding-bottom: 2rem;
+}
+
 .articlebox {
     position: absolute; 
     top: 47%;
