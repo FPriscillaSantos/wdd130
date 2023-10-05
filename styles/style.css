@@ -31,8 +31,10 @@ h1 {
     padding-left: 20px;
     padding-bottom: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 1px #090761;
+    border-bottom: 1px solid slateblue;
     font-size: 1.99rem;
+    margin: 1rem;
+    
 }
 
 .grid{
@@ -63,6 +65,7 @@ aside {
     max-width: 300px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1px;
+    padding-top: 2rem;
     background-color: #eee;
     color: #333;
     text-align: center;
