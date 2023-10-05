@@ -12,7 +12,7 @@ nav {
     align-items: center;
 }
 
-header, footer {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto
 }
@@ -29,7 +29,19 @@ nav a {
 h1 {
     color: slateblue;
     padding-left: 20px;
+    padding-bottom: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1px #090761;
+    font-size: 1.99rem;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+main {
+    margin: 1rem;
+    grid-column: 2/3;
 }
 
 main img{
@@ -42,14 +54,13 @@ main img{
 }
 
 p {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 
-
 aside {
-    width: 300px;
+    max-width: 300px;
     margin: 1px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1px;
@@ -57,17 +68,13 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-row: 1/2;
 }
 
 aside img {
     width: 200px;
     height: auto;
-}
-
-aside h2 {
-    position: absolute;
-    top: 0px;
-    left: 75px;
+    grid-row: 1;
 }
 
 footer {
@@ -79,10 +86,21 @@ footer {
 /* Class Selectors */
 
 .box {
+    margin-top: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 0.5rem;
+    padding-left: 2rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.asidebox {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 2rem;
     background-color: #eee;
     color: #000;
+    grid-row: 1;
+    
 }
 
