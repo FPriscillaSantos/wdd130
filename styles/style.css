@@ -61,7 +61,6 @@ p {
 
 aside {
     max-width: 300px;
-    margin: 1px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1px;
     background-color: #eee;
@@ -94,13 +93,5 @@ footer {
     color: #000;
 }
 
-.asidebox {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 2rem;
-    background-color: #eee;
-    color: #000;
-    grid-row: 1;
-    
-}
+
 
