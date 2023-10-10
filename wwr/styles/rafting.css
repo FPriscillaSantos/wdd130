@@ -58,8 +58,8 @@ header {
 
 h1 {
     position: absolute; 
-    top: 36%;
-    right:30%;
+    top: 35%;
+    right: 37%;
     background-color: rgb(105, 175, 233, 0.3);
     font-family: var(--heading-font);
     color: var(--secondary-color);
