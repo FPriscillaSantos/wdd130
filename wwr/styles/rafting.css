@@ -88,7 +88,7 @@ h3 {
 
 .articlebox {
     position: absolute; 
-    top: 47%;
+    top: 35%;
     right: 4%;
     margin: 0%;
     border: 1px solid rgba(0,0,0,.1);
@@ -99,7 +99,7 @@ h3 {
     height: auto;   
 }
 
-p {
+p, figcaption {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     padding: 5px;
@@ -113,21 +113,52 @@ section {
     padding: 10px;
     margin: 20px;
     background-color:var(--background);
-}
-
-div.adv-images {
-    display: inline-flex;
-    grid-area: 1;
-    grid-row: 2;
-    position: relative;
-    justify-content: space-around;
-    background-color:var(--background);
-}
-
-.box {
-    display: grid;
-    grid-area: 1 / 5;
     border: 1px solid var(--primary-color);
+}
+
+.history {
+    display: grid;
+    justify-content: space-between;
+}
+
+.history h2 {
+    justify-items : center;
+    grid-column-start : 2;
+    padding-bottom: 1rem;
+}
+
+.history p {
+    grid-row: 2;
+    -ms-layout-grid-line: 1;
+    padding: 2rem;
+
+}
+
+.history img{
+    grid-column-start: 2;
+    width: 130px;
+    height: auto;
+    grid-row: 2;
+}
+
+.adventure {
+    text-align: center; 
+}
+
+
+.adventure figure {
+    display: inline-block; /* Torna as figuras elementos inline para que fiquem em uma linha */
+    text-align: center; 
+    margin: 0 10px; 
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner pai */
+}
+
+.adventure img {
+    max-height: 160px;
+    
 }
 
 footer {
