@@ -7,6 +7,18 @@
     max-width: 540px;
 }
 
+legend {
+    color: navy;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.custom-style {
+    color: navy;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 body {
     font-family: raleway, arial;
     font-size: 1em;
