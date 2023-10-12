@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">  
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> F Priscilla Santos | Quiz Form </title>   
+        <meta name="description" content="F Priscilla Santos, html, css, web pages, WDD 130 Web Fundamentals.">
+        <meta name="author" content="F Priscilla Santos">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+
+<main>
+    <form autocomplete="off">
+        <fieldset>
+            <legend>Quiz Form</legend>
+            <div class="q1">
+                <label>1. What does the acronym CSS stand for? <input type="q1" id="q1" name="q1"></label>  
+            </div>
+            <div class="q2">          
+                <label>2. How are id and class attributes selected in CSS? <input type="q2" id="q2" name="q2"></label>    
+            </div>      
+            <div class="q3">
+                <label>3. Which of the following is a valid CSS comment?</label> 
+            <select id="q3" name="q3">
+                <option value="cm1">/* comment here */</option>
+                <option value="cm2">\* comment here *\</option>
+                <option value="cm3">** comment here **</option>
+                <option value="cm4">-/ comment here /-</option>
+            </div>
+            </select>
+            <div class="number">
+                <label>4. What is the bottom margin given this declaration?</label>
+                <br>
+                <img src="images/imgquiz.png" alt="question 4 image"> 
+                <br>
+                <input type="number" id="q4" name="q4">
+            </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
