@@ -5,7 +5,7 @@
 	padding: 0;
     max-width: 1345px;
     text-decoration: none;
-    background-color: var(--accent2-color);
+    background-color: #e90606;
 }
 	
 :root{
@@ -240,12 +240,13 @@ h2 {
 .text p {
     margin: 0;
     background-color: var(--background);
+    padding-bottom: 1rem;
 }
 
 .map {
-    width: 200px;
     padding: 20px 0 0 80px;
     background-color: var(--background);
+    display: flex;
 }
 
 .paragrafo {
@@ -255,27 +256,48 @@ h2 {
 .form {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    background-color: var(--background);
+    background-color: #eee;
 }
 
+fieldset {
+    background-color: #eee;
+    padding: 1rem;
+    margin: #eee;
+}
+
+legend {
+    background-color: #eee;
+}
+
+
 .formstyle {
-    background-color: var(--background);
+    background-color: #eee;
 }
 
 label {
-    background-color: var(--background);
+    background-color: #eee;
+    font-family: var(--paragraph-font);
 }
 
-input, textarea {
+content {
+    background-color: #ce0f0f);
+}
+
+input {
+    border-radius: 5px;
+    font-family: var(--paragraph-font);
+    background-color: var(--background);
+    margin: 5px #eee;
+}
+
+textarea {
     border-radius: 5px;
     width: 100%;
     background-color: var(--background);
 }
 
-input[type="radio"], input[type="checkbox"] {
-    margin-right: 5px;
-    
-    
+.custom-label {
+    width: 100%;
 }
 
 input[type="submit"] {
@@ -285,6 +307,7 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    width: 100%;
 }
 
 input[type="submit"]:hover {
