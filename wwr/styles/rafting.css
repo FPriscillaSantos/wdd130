@@ -58,14 +58,32 @@ header {
 
 h1 {
     position: absolute; 
-    top: 35%;
-    right: 37%;
-    background-color: rgb(105, 175, 233, 0.3);
+    top: 28%;
+    right:0;
+    left: 0;
+    background-color: rgb(105, 175, 233, 0.3) ;
     font-family: var(--heading-font);
     color: var(--secondary-color);
     padding: 10px;
-    grid-row: 1;
-    justify-self: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.hero h2 {
+    position: absolute; 
+    top: 80%;
+    right:0;
+    left: -13%;
+    background-color: rgba(211, 231, 248, 0.2); 
+    font-family: var(--heading-font);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-left: -20px; 
+    color: var(--primary-color);
+    font-size: 36px;
 }
 
 h2 {
@@ -88,7 +106,7 @@ h3 {
 
 .articlebox {
     position: absolute; 
-    top: 35%;
+    top: 38%;
     right: 4%;
     margin: 0%;
     border: 1px solid rgba(0,0,0,.1);
@@ -185,4 +203,51 @@ footer p {
 
 .sociallinks a img {
     background-color:var(--background);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px; 
+    text-align: left;
+    background-color: var(--background);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    align-self: center;
+    padding-right: 40px;
+}
+
+.text p {
+    margin: 0;
+    background-color: var(--background);
+}
+
+.map {
+    width: 200px;
+    padding: 20px 0 0 80px;
+    background-color: var(--background);
+}
+
+.paragrafo {
+    padding-top: 1rem;
 }
