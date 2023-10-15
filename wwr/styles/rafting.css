@@ -265,7 +265,6 @@ h2 {
 fieldset {
     background-color: #eee;
     padding: 1rem;
-    margin: #eee;
 }
 
 legend {
@@ -285,7 +284,6 @@ input {
     border-radius: 5px;
     font-family: var(--paragraph-font);
     background-color: var(--background);
-    margin: #eee;
     border: .5px solid var(--primary-color);
 }
 
