@@ -319,7 +319,7 @@ figcaption {
 }
 
 .triptext p {
-    padding: 20px 200px 10px 200px;
+    padding: 5px 200px 10px 200px;
     text-align: center;
 }
 
@@ -332,9 +332,13 @@ figcaption {
     background-color: var(--background);
 }
 .triptext input[type="submit"] {
-    width: 50%;
-    padding: 20px;
+    width: 30%;
+    padding: 10px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+figure p {
+    width: 200px;
 }
