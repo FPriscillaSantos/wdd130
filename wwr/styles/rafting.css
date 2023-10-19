@@ -317,3 +317,20 @@ input[type="submit"]:hover {
 figcaption {
     background-color: var(--background);
 }
+
+.triptext p {
+    padding: 20px 200px 20px 200px;
+    text-align: center;
+}
+
+.form-bottom {
+    text-align: center;
+    background-color: var(--background);
+}
+.triptext input[type="submit"] {
+    width: 50%;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
