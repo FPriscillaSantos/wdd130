@@ -57,6 +57,10 @@ header {
     float: right;
 }
 
+section {
+    
+}
+
 h1 {
     position: absolute; 
     top: 28%;
@@ -70,6 +74,10 @@ h1 {
     display: block;
     width: 100%;
     text-align: center;
+}
+
+.hero {
+    position: absolute;
 }
 
 .hero h2 {
