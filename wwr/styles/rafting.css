@@ -357,6 +357,28 @@ figcaption {
     transition: background-color 0.3s;
 }
 
+figure {
+    background-color: var(--background);
+}
+
 figure p {
     width: 200px;
+    background-color: var(--background);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+table{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: var(--background);
+}
+
+th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    background-color: var(--background);
 }
