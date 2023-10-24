@@ -422,15 +422,16 @@ th, td {
 
 .newsletter {
     position: absolute; 
-    top: 28%;
-    right: 10%;
+    top: 32%;
+    right: 3%;
     margin: 0%;
     border: 1px solid rgba(0,0,0,.1);
     padding: .5rem;
     background-color: rgba(255,255,255,0.5);
     color: #000;
-    width: 215px;
+    width: 315px;
     height: auto;   
+    border-radius: 15px;
 }
 
 .newsletter label {
@@ -439,13 +440,25 @@ th, td {
 
 .newsletter legend {
     background-color: rgba(255,255,255,0.1); 
+    padding: .5rem;
 }
 
 .newsletter .formstyle {
-    background-color: rgba(255,255,255,0.2); 
+    background-color: rgba(255,255,255,0.1); 
 }
 
 .newsletter .form-row {
-    background-color: rgba(255,255,255,0.2); 
+    background-color: rgba(255,255,255,0.1); 
 }
 
+.newsletter .form-bottom {
+    text-align: center;
+    background-color: rgba(255,255,255,0.01)
+}
+
+.newsletter p {
+    text-align: center;
+    background-color: rgba(255,255,255,0.01);
+    font-weight: lighter;
+    padding: .3rem;
+}
