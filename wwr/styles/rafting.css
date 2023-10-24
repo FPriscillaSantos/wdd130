@@ -407,3 +407,19 @@ th, td {
 .button-link:hover {
     background-color: var(--secondary-color);
 }
+
+.home {
+    display: grid;
+    justify-content: space-between;
+}
+
+.adventure2 {
+    text-align: center; 
+}
+
+
+.adventure2 figure {
+    display: inline-block; /* Torna as figuras elementos inline para que fiquem em uma linha */
+    text-align: center; 
+    margin: 0 10px; 
+}
