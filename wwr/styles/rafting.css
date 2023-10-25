@@ -375,6 +375,7 @@ figure p {
 
 .tables {
     background-color: var(--background);
+    text-align: center;
 }
 
 table{
@@ -385,7 +386,8 @@ table{
     border-collapse: collapse;
     background-color: var(--background);
     display: inline;
-    margin-right: 20px;
+    margin-right: 55px;
+    margin-left: 50px;
 }
 
 th, td {
@@ -503,4 +505,9 @@ th, td {
 .home figure img {
     max-height: 300px;
     width: auto;
+}
+
+figcaption {
+    max-width: 220px;
+    padding-bottom: 1rem;
 }
